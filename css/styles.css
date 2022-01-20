@@ -299,11 +299,22 @@ display: flex;
     margin-left: 10px;
 }
 .team-social-link{
-    display: block;
-    background-color: rgb(109, 14, 14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-background-color);
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    color:#AFB1B8;
+}
+.team-social-icon{
+    fill: currentColor;
+}
+.team-social-link:hover,
+.team-social-link:focus{
+    background-color: var(--accent-color);
+    color:#ffffff;
 }
 
 
