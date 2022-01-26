@@ -159,6 +159,7 @@ align-items: center;
 }
 .footer-container{
     display: flex;
+    align-items: baseline;
 }
 .main-footer{
     display: flex;
